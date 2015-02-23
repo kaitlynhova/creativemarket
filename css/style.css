@@ -139,6 +139,10 @@ ul{
   height: 100px;
   position: relative;
   top: -103px;
+  text-align: center;
+  color: white;
+  padding-top: 16px;
+  font-weight: 300;
 }
 
 
@@ -282,6 +286,13 @@ ul{
   .navbar-default {
     position: fixed;
     width: 100%;
+  }
+  .slider_text {
+    position: relative;
+    top: 0px;
+  }
+  #fb-signup {
+    height: 125px;
   }
 
 }
