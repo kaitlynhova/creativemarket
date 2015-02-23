@@ -110,6 +110,13 @@ ul{
 /* Slides
 ------------------------- */
 
+
+.slider-caption{
+  position: relative;
+  top: -20px;
+  left: 16px;
+}
+
 .item1 {
   background-image: url(../images/header.png);
   background-size: cover;
