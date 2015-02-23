@@ -297,6 +297,58 @@ ul{
 /* SHOP AREA STYLES */
 #earn-with-us{
   background: #fcfcfb;
+  text-align:center;
+}
+
+.shop-title{
+  font-size: 21px;
+  padding-top: 12px;
+}
+
+.open-shop-btn{
+  background: #95b060;
+  border: 1px solid #95b060;
+  padding: 10px;
+  color: white;
+  width: 129px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.earn-cash-btn{
+  background: #548eb2;
+  border: 1px solid #548eb2;
+  padding: 10px;
+  color: white;
+  width: 159px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+.right-border{
+  border-right: 1px solid lightgray;
+}
+.graph-thing{
+  background-image: url(../images/icon.png);
+  background-size: 415px 413px;
+  background-position: -138px -105px;
+  width: 60px;
+  height: 60px;
+  display:block;
+  margin: 0 auto;
+}
+
+.shop-thing{
+  background-image: url(../images/icon.png);
+  background-size: 415px 413px;
+  background-position: -164px -193px;
+  width: 60px;
+  height: 52px;
+  display:block;
+  margin: 0 auto;
 }
 
 
@@ -436,6 +488,9 @@ ul{
   .carousel-indicators {
     bottom: 0px !important;
     z-index: 9;
+  }
+  .right-border{
+    border-right: 0px ;
   }
 
 
