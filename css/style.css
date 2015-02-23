@@ -18,6 +18,9 @@ body{
   padding-right:0;
 }
 
+.white-bg {
+  background: #fcffcb;
+  }
 
 .top-title{
   letter-spacing: 1px;
@@ -183,6 +186,7 @@ ul{
   padding-top: 50px;
   padding-bottom: 85px;
   position: relative;
+  background: none;
 }
 
 .featured-square{
