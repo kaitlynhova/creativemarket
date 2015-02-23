@@ -44,7 +44,7 @@ body{
 }
 
 .right{
-	padding-left: 168px;
+	padding-left: 140px;
 }
 
 .navbar-nav {
@@ -358,6 +358,11 @@ ul{
     width: 101%;
     position: relative;
     left: -1px;
+  }
+  .form-control {
+
+    background-position-y: 10px;
+
   }
 
 }
