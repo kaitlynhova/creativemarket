@@ -156,6 +156,13 @@ ul{
   top: -103px;
 }
 
+#blog-posts{
+  background: #fcfcfb;
+  padding-top: 50px;
+  padding-bottom: 85px;
+  position: relative;
+}
+
 .featured-square{
 	height: 270px;
 	background-size: cover;
