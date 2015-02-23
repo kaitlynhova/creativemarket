@@ -1,0 +1,201 @@
+body{
+  font-family: "open-sans",sans-serif;
+  background: #f5f4f1 url(../images/bg.png) repeat 0 0;
+}
+
+.container-fluid {
+  max-width: 1220px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.top-title{
+  letter-spacing: 1px;
+}
+
+.bottom-title{
+  letter-spacing: 3px;
+}
+
+.right{
+	padding-left: 168px;
+}
+
+.navbar-nav {
+  margin: 0;
+  font-size: 12px;
+  position: relative;
+  right: -25px;
+}
+
+ul{
+  position: relative;
+  top: -10px;
+}
+
+/*  NAV STYLES  */
+
+.navbar-default{
+  background: #5c554b url(../images/header-bg.png) repeat-x 0 0;
+  border-color: #5c554b;
+  border-radius: 0;
+  height: 50px;
+  z-index: 10;
+}
+
+.top-text{
+  padding-left: 160px;
+}
+
+.signing-text{
+	text-align:right;
+	padding-right: 20px;
+}
+
+.navbar-form {
+	margin-top: 0px;
+}
+
+.navbar-form .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+  height: 26px;
+  margin-top:-3px;
+  width: 125px;
+}
+
+.top-nav{
+  background: #4e4a41 url(../images/header-bg.png) repeat-x 0 0;
+  height: 40px;
+  font-size: 11px;
+  color:#aca99f;
+  margin-right: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:whitesmoke;
+}
+
+.navbar > .container-fluid .navbar-brand {
+  margin-left: -15px;
+  background-image: url(../images/logo.png);
+  height: 108px;
+  position: relative;
+  top: -60px;
+  width: 165px;
+  z-index: 2;
+}
+
+.logo-times{
+  width: 93px;
+  margin-left: 14%;
+  position: relative;
+  top: 18px;
+}
+
+
+/*  HERO STYLES  */
+
+#hero{
+  background-image: url(../images/preview1.jpg);
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  top: -21px;
+  background-position: center;
+  z-index: -1;
+}
+
+/*  FB SIGN UP STYLES  */
+
+#fb-signup{
+  background: #363b3f;
+  height: 100px;
+  position: relative;
+  top: -103px;
+}
+
+
+/*  POPULAR PRODUCT STYLES  */
+
+.featured-square{
+	height: 270px;
+	background-size: cover;
+	background-position: center;
+}
+
+.featured1{
+	background-image: url('../images/1.jpg');
+}
+
+.featured2{
+	background-image: url('../images/slider2.jpg');
+}
+
+.featured3{
+	background-image: url('../images/3.jpg');
+}
+
+.circle{
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  background: gray;
+}
+
+.tag{
+  width: 10px;
+  height: 22px;
+  background-image: url(../images/icon.png);
+  background-size: 415px 413px;
+  background-position: -329px -25px;
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .navbar > .container-fluid .navbar-brand {
+    background-image: none;
+    top: -11px;
+    z-index: -1;
+  }
+  
+  .navbar-collapse{
+    background: #5c554b url(../images/header-bg.png) repeat-x 0 0;
+    position: relative;
+	top: -60px;
+	padding: 0 !important;
+	border-top: 0 !important;
+	-webkit-box-shadow: 0 !important;
+	box-shadow: 0 !important;
+  }
+  
+  .logo-times{
+    width: 93px;
+    margin-left: 14%;
+    position: relative;
+    top: 0px;
+  }
+	.container-fluid {
+	  padding-top: 0px;
+	}
+	#myCarousel {
+		position: relative;
+		top: -20px !important;
+	}
+	#fb-signup {
+		background: #363b3f;
+		height: 100px;
+		position: relative;
+		top: -20px;
+	}
+	.navbar-form .form-control {
+		height: 40px;
+		width: 100%;
+	}
+
+}
