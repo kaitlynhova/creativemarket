@@ -31,7 +31,7 @@ body{
 }
 
 .free-download-button{
-  background: url(../images/btn-bg.png) repeat 0 0,-webkit-linear-gradient(top,#95b060 0,#89a452 100%);
+  background: url(../images/btn-bg1.png) repeat 0 0,-webkit-linear-gradient(top,#95b060 0,#89a452 100%);
   color: white;
   padding: 14px;
   text-align: center;
@@ -169,6 +169,11 @@ ul{
 	background-image: url('../images/3.jpg');
 }
 
+#featured-things{
+  position: relative;
+  top: -45px;
+}
+
 .circle{
   border-radius: 50%;
   display: inline-block;
@@ -236,7 +241,11 @@ ul{
     right:0px;
   }
   #featured-free-things {
-  top: -20px;
+    top: -20px;
+  }
+  #featured-things {
+    position: relative;
+    top: 45px;
   }
 
 }
