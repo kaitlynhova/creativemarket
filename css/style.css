@@ -353,7 +353,6 @@ ul{
   .navbar-nav {
     right:0px;
     background: #4e4a41 url(../images/bg.png) repeat-x 0 0;
-    font-size: 20px;
     position:relative;
     top: -25px;
   }
@@ -423,6 +422,19 @@ ul{
     position: relative;
     left: 0px;
     top: -17px;
+  }
+
+  .slider-download-button {
+    left: 0px !important;
+  }
+
+  .slider_text{
+    top: 90px;
+  }
+
+  .carousel-indicators {
+    bottom: 0px !important;
+    z-index: 9;
   }
 
 

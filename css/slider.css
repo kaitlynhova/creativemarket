@@ -117,6 +117,21 @@ ul{
   left: 16px;
 }
 
+.slider-download-button{
+  color: lightgray;
+  font-size: 12px;
+  border: 1px solid lightgray;
+  width: 109px;
+  padding: 12px;
+  position: relative;
+  left: 16px;
+  top: -10px;
+}
+
+.slider-download-button:hover{
+  background: #95b060;
+  border: 1px solid #95b060;
+}
 .item1 {
   background-image: url(../images/header.png);
   background-size: cover;
@@ -142,5 +157,4 @@ ul{
   position: relative;
   font-family: 'open-sans' !Important;
   text-align: left;
-
 }
