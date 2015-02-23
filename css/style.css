@@ -297,7 +297,9 @@ ul{
 /* SHOP AREA STYLES */
 #earn-with-us{
   background: #fcfcfb;
-  text-align:center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .shop-title{
@@ -316,6 +318,12 @@ ul{
   margin-top: 20px;
 }
 
+.open-shop-btn:hover{
+  background: none;
+  color: #95b060;
+  border: 1px solid #95b060;
+}
+
 .earn-cash-btn{
   background: #548eb2;
   border: 1px solid #548eb2;
@@ -325,6 +333,13 @@ ul{
   display: block;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.earn-cash-btn:hover{
+  background: none;
+  color: #548eb2;
+  border: 1px solid #548eb2;
 }
 
 
