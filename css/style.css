@@ -1,5 +1,5 @@
 body{
-  font-family: "open-sans",sans-serif;
+  font-family: "open-sans",sans-serif !important;
   background: #f5f4f1 url(../images/bg.png) repeat 0 0;
   color: #5c554b;
 }
@@ -18,13 +18,11 @@ body{
   padding-right:0;
 }
 
-.lower-container{
-  width: 100% !important;
-}
 
 .top-title{
   letter-spacing: 1px;
   padding-left: 15px;
+  font-family: 'Open-sans';
 }
 
 .bottom-title{
