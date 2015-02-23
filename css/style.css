@@ -174,6 +174,7 @@ ul{
 
 #featured-things{
   background: #fcfcfb;
+  padding-bottom: 50px;
 }
 
 #blog-posts{
@@ -189,7 +190,7 @@ ul{
 }
 
 .featured1{
-	background-image: url('../images/1.jpg');
+	background-image: url('../images/1b.png');
 }
 
 .fa:hover{
@@ -201,16 +202,16 @@ ul{
 }
 
 .featured2{
-	background-image: url('../images/slider2.jpg');
+	background-image: url('../images/2b.png');
 }
 
 .featured3{
-	background-image: url('../images/3.jpg');
+	background-image: url('../images/3b.png');
 }
 
 #featured-things{
   padding-top: 30px;
-  padding-bottom: 35px;
+  padding-bottom: 45px;
 }
 
 .tag-size {
@@ -272,6 +273,11 @@ ul{
   font-weight: bold;
   font-size: 15px;
   padding-bottom: 50px;
+}
+
+/* SHOP AREA STYLES */
+#earn-with-us{
+  background: #fcfcfb;
 }
 
 

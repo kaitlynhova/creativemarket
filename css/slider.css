@@ -111,21 +111,21 @@ ul{
 ------------------------- */
 
 .item1 {
-  background-image: url(../images/slider1.jpg);
+  background-image: url(../images/header.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .item2 {
-  background-image: url(../images/slider2.jpg);
+  background-image: url(../images/header2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .item3 {
-  background-image: url(../images/wood.jpg);
+  background-image: url(../images/header3.png);
   background-size: cover;
   background-repeat: no-repeat;r
   background-position: center;
