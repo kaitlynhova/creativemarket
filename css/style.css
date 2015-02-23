@@ -246,11 +246,11 @@ ul{
   .navbar-collapse{
     background: #5c554b url(../images/header-bg.png) repeat-x 0 0;
     position: relative;
-	top: -60px;
-	padding: 0 !important;
-	border-top: 0 !important;
-	-webkit-box-shadow: 0 !important;
-	box-shadow: 0 !important;
+	  top: -60px;
+	  padding: 0 !important;
+	  border-top: 0 !important;
+	  -webkit-box-shadow: 0 !important;
+	  box-shadow: 0 !important;
   }
 
   .logo-times{
@@ -300,6 +300,12 @@ ul{
   }
   #fb-signup {
     height: 125px;
+  }
+  .container-fluid {
+    padding-top: 0px;
+    width: 86%;
+    display: block;
+    margin: 0 auto;
   }
 
 }
