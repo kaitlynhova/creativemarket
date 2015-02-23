@@ -222,17 +222,20 @@ ul{
   transform: rotate(-45deg);
   font-size: 55px;
   color: lightgray;
-  float: right;
   position: relative;
-  right: -20px;
+  top: -5px;
+  float: right;
+  left: 21px;
 }
 
 .money{
   text-align: right;
   position: relative;
-  top: 18px;
-  right: -55px;
+  top: 14px;
+  left: 60px;
+  letter-spacing: 1px;
   color: white;
+  float: right;
 }
 
 .social-share-links{
