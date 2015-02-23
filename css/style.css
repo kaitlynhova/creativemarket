@@ -34,6 +34,13 @@ body{
   padding-bottom: 20px;
   font-weight: 300;
 }
+
+.code-class{
+  position: relative;
+  left: 15px;
+  top: -17px;
+}
+
 .caption-text{
   font-weight: 300;
   font-size: 12px;
@@ -397,5 +404,14 @@ ul{
   .money{
     left: 33px;
   }
+
+  .top-title{
+    padding-left: 0px;
+  }
+
+  .bottom-title{
+    padding-left: 0px;
+  }
+
 
 }

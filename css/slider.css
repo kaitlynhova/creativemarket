@@ -133,5 +133,7 @@ ul{
 
 .slider_text{
   position: relative;
+  font-family: 'open-sans' !Important;
+  text-align: left;
 
 }
