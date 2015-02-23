@@ -1,6 +1,7 @@
 body{
   font-family: "open-sans",sans-serif;
   background: #f5f4f1 url(../images/bg.png) repeat 0 0;
+  color: #5c554b;
 }
 
 .container-fluid {
@@ -21,6 +22,20 @@ body{
 .bottom-title{
   letter-spacing: 3px;
   padding-left: 15px;
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+.caption-text{
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.free-download-button{
+  background: url(../images/btn-bg.png) repeat 0 0,-webkit-linear-gradient(top,#95b060 0,#89a452 100%);
+  color: white;
+  padding: 14px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .right{
@@ -128,6 +143,14 @@ ul{
 
 /*  POPULAR PRODUCT STYLES  */
 
+#featured-free-things{
+  background: #fcfcfb;
+  padding-top: 50px;
+  padding-bottom: 85px;
+  position: relative;
+  top: -103px;
+}
+
 .featured-square{
 	height: 270px;
 	background-size: cover;
@@ -211,6 +234,9 @@ ul{
   }
   .navbar-nav {
     right:0px;
+  }
+  #featured-free-things {
+  top: -20px;
   }
 
 }
