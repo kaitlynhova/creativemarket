@@ -334,6 +334,9 @@ ul{
   .navbar-nav {
     right:0px;
     background: #4e4a41 url(../images/bg.png) repeat-x 0 0;
+    font-size: 20px;
+    position:relative;
+    top: -25px;
   }
   #featured-free-things {
     top: -20px;
@@ -366,9 +369,14 @@ ul{
     left: -1px;
   }
   .form-control {
-
     background-position-y: 10px;
-
+  }
+  .nav > li {
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid;
   }
 
 }
