@@ -162,6 +162,14 @@ ul{
 	background-image: url('../images/1.jpg');
 }
 
+.fa:hover{
+  color: #89a452;
+}
+
+.fa-heart:hover{
+  color: #B05858;
+}
+
 .featured2{
 	background-image: url('../images/slider2.jpg');
 }
@@ -270,6 +278,10 @@ ul{
   #featured-things {
     position: relative;
     top: 45px;
+  }
+  .navbar-default {
+    position: fixed;
+    width: 100%;
   }
 
 }
