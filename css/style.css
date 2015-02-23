@@ -287,6 +287,7 @@ ul{
   }
   .navbar-nav {
     right:0px;
+    background: #4e4a41 url(../images/bg.png) repeat-x 0 0;
   }
   #featured-free-things {
     top: -20px;
