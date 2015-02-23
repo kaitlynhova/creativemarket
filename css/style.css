@@ -9,13 +9,18 @@ body{
   margin: 0 auto;
   padding-top: 10px;
 }
+.no-padding{
+  padding:0;
+}
 
 .top-title{
   letter-spacing: 1px;
+  padding-left: 15px;
 }
 
 .bottom-title{
   letter-spacing: 3px;
+  padding-left: 15px;
 }
 
 .right{
@@ -55,6 +60,8 @@ ul{
 
 .navbar-form {
 	margin-top: 0px;
+  position: relative;
+  top: -2px;
 }
 
 .navbar-form .form-control {
@@ -63,7 +70,7 @@ ul{
   vertical-align: middle;
   height: 26px;
   margin-top:-3px;
-  width: 125px;
+  width: 168%;
 }
 
 .top-nav{
@@ -72,6 +79,7 @@ ul{
   font-size: 11px;
   color:#aca99f;
   margin-right: 0px;
+  padding-top: 2px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -163,7 +171,7 @@ ul{
     top: -11px;
     z-index: -1;
   }
-  
+
   .navbar-collapse{
     background: #5c554b url(../images/header-bg.png) repeat-x 0 0;
     position: relative;
@@ -173,7 +181,7 @@ ul{
 	-webkit-box-shadow: 0 !important;
 	box-shadow: 0 !important;
   }
-  
+
   .logo-times{
     width: 93px;
     margin-left: 14%;
@@ -197,5 +205,12 @@ ul{
 		height: 40px;
 		width: 100%;
 	}
+  .navbar-form {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .navbar-nav {
+    right:0px;
+  }
 
 }
