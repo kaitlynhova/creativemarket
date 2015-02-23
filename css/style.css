@@ -358,12 +358,6 @@ ul{
   #fb-signup {
     height: 125px;
   }
-  .container-fluid {
-    padding-top: 0px;
-    width: 86%;
-    display: block;
-    margin: 0 auto;
-  }
 
   .mobile-nav{
     width: 101%;
