@@ -91,6 +91,7 @@ body{
   text-align: center;
   margin-top: 10px;
   margin-bottom: 50px;
+  background-color:#95b060;
   border:1px solid #95b060;
 }
 
@@ -157,6 +158,7 @@ ul{
   padding-left: 29px;
   padding-top: 7px;
   outline: 0;
+  background-position: left;
 }
 
 .form-control:focus{
