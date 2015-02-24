@@ -313,6 +313,10 @@ ul{
   padding-bottom: 50px;
 }
 
+.post-link:hover{
+  color: #363b3f;
+}
+
 /* SHOP AREA STYLES */
 #earn-with-us{
   background: #fcfcfb;
