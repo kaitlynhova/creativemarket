@@ -118,19 +118,20 @@ ul{
 }
 
 .slider-download-button{
-  color: lightgray;
   font-size: 12px;
-  border: 1px solid lightgray;
+  background: #95b060;
+  border: 1px solid #95b060;
   width: 109px;
   padding: 12px;
   position: relative;
   left: 16px;
   top: -10px;
+  color:white
 }
 
 .slider-download-button:hover{
-  background: #95b060;
-  border: 1px solid #95b060;
+  border: 1px solid lightgray;
+  background: none;
 }
 .item1 {
   background-image: url(../images/header.png);
