@@ -666,4 +666,8 @@ ul{
     height: 100%;
   }
 
+  .center-footer{
+    text-align:center;
+  }
+
 }
