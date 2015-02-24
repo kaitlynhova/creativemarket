@@ -288,8 +288,8 @@ ul{
 }
 
 #featured-things{
-  padding-top: 30px;
-  padding-bottom: 45px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .tag-size {
@@ -631,6 +631,29 @@ ul{
   }
   .navbar-header{
     padding-top:1px;
+  }
+
+  #featured-free-things {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    position: relative;
+    padding-bottom:5px;
+  }
+  #featured-things {
+    padding-top: 60px;
+    padding-bottom: 45px;
+  }
+  #blog-posts {
+    padding-top: 95px;
+    padding-bottom: 75px;
+    position: relative;
+    background: none;
+  }
+  #earn-with-us {
+    background: #fcfcfb;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 75px;
   }
 
 }
