@@ -599,6 +599,16 @@ ul{
     font-size: 15px;
     text-align: center;
   }
-
+  .navbar-default {
+    background: #5c554b url(../images/header-bg.png) repeat-x 0 0;
+    border-color: #5c554b;
+    border-radius: 0;
+    height: 60px !important;
+    z-index: 10;
+    padding-top: 3px !important;
+  }
+  .navbar-header{
+    padding-top:1px;
+  }
 
 }
