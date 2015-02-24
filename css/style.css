@@ -17,7 +17,25 @@ body{
 .move-up{
   margin-top: -70px;
 }
+.extra-margin-bottom{
+  margin-bottom: 30px !important;
+}
 
+.view-more-btn{
+  color: #aca99f;
+  text-align: center;
+  border: 1px solid #aca99f;
+  width: 175px;
+  display: block;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+.view-more-btn:hover{
+  background: #95b060;
+  border: 1px solid #95b060;
+  color:white;
+}
 .twelve{
   font-weight: 12px !important;
 }
