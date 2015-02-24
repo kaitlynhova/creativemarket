@@ -140,6 +140,10 @@ ul{
   z-index: 10;
 }
 
+.navbar-header{
+  height: 20px;
+}
+
 .top-text{
   padding-left: 160px;
 }
@@ -654,6 +658,10 @@ ul{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 75px;
+  }
+
+  .navbar-header{
+    height: 100%;
   }
 
 }
