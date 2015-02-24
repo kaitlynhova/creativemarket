@@ -9,8 +9,9 @@ body{
 }
 
 .bold{
-  font-weight: bold !important;
+  font-weight: 300;
   font-size:17px;
+  color: #5c554b;
 }
 
 .twelve{
@@ -396,6 +397,7 @@ ul{
   font-size: 12px;
   padding-top: 50px;
   padding-bottom: 50px;
+  color:#a69d92;
 }
 
 .center-footer{
@@ -409,6 +411,7 @@ ul{
   text-align: center;
   font-size: 12px;
   padding-top: 50px;
+  color:#5c554b;
 }
 
 .social-footer{
@@ -416,6 +419,7 @@ ul{
   letter-spacing: 8px;
   width: 135px;
   margin: 0 auto;
+  color:#5c554b;
 }
 
 
